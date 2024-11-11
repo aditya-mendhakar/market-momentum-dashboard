@@ -1,12 +1,69 @@
 <h1 align="center">  Market Momentum Dashboard </h1>
-<p align="justify"><b>TThis user story describes the requirements for developing two Tableau dashboards aimed at assisting stakeholders, 
+<p align="justify"><b>This user story describes the requirements for developing two Tableau dashboards aimed at assisting stakeholders, 
   such as sales managers and executives, in analyzing sales performance metrics and understanding customer data.</b> </p>
-<h3>Features</h3>
+<h2>Sales Dashboard | Requirements</h2>
+<div>
+<h3>Dashboard Purpose</h3>
+The purpose of sales dashboard is to present an overview of the sales metrics and trends in order to analyze year-over-year sales performance and understand sales trends.
+
+<h3>Key Requirements</h3>
 <ul>
-  <li><b>Sales Performance Analysis:</b>  Track daily, weekly, and monthly sales with dynamic line charts and pivot tables.</li>
-  <li><b>Product Popularity:</b> Analyze top-selling products and categories using bar charts and heatmaps.</li>
-  <li><b>Revenue Insights: </b>  Breakdown of revenue streams by product type, seasonality, and location.</li>
-  <li><b>Interactive Dashboard: </b> A user-friendly Excel dashboard with filters for customized views and insights.</li>
+<li>KPI Overview</li>
+Display a summary of total sales, profits and quantity for the current year and the previous year.
+
+<li>Sales Trends</li>
+ – Present the data for each KPI on a monthly basis for both the current year and the previous year.
+
+ – Identify months with highest and lowest sales and make them easy to recognize.
+
+<li>Product Subcategory Comparison</li>
+ – Compare sales performance by different product subcategories for the current year and the previous year.
+
+ – Include a comparison of sales with profit.
+
+<li>Weekly Trends for Sales & Profit</li>
+ – Present weekly sales and profit data for the current year.
+
+ – Display the average weekly values.
+ 
+ – Highlight weeks that are above and below the average to draw attention to sales & profit performance.
+</ul>
+</div>
+<h2>Customer Dashboard | Requirements</h2>
+<h3>Dashboard Purpose</h3>
+The customer dashboard aims to provide an overview of customer data, trends and behaviors. It will help marketing teams and management to understand customer segments and improve customer satisfaction.
+
+<h3>Key Requirements</h3>
+<ul>
+<li>KPI Overview</li>
+Display a summary of total number of customers , total sales per customer and total number of orders for the current year and the previous year.
+
+<li>Customer Trends</li>
+ – Present the data for each KPI on a monthly basis for both the current year and the previous year.
+
+ – Identify months with highest and lowest sales and make them easy to recognize.
+
+<li>Customer Distribution by Number of Orders</li>
+Represent the distribution of customers based on the number of orders they have placed to provide insights into customer behavior, loyalty and engagement.
+
+<li>Top 10 Customers By Profit</li>
+ – Present the top 10 customers who have generated the highest profits for the company.
+
+ – Show additional information like rank, number of orders, current sales, current profit and the last order date.
+
+</ul>
+
+<h2>Design & Interactivity Requirements</h2>
+<ul>>
+<li>Dashboard Dynamic</li>
+ – The Dashboard should allow users to check historical data by offering them the flexibility to select any desired year.
+
+ – Provide users with the ability to navigate between the dashboards easily.
+
+ – Make the charts and graphs interactive, enabling users to filter data using the charts.
+
+<li>Data Filters</li>
+Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
 </ul>
 <h3>Getting Started</h3>
 <ol>
